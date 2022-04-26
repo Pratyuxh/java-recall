@@ -6,6 +6,7 @@
     }
     class B extends A{
         public void show(){
+            super.show(); // use of super keyword
             System.out.println("in B");
         }
     }
